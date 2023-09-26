@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<link rel="stylesheet" href="estilo.css">
+
+<body style="background-color:rgb(172, 237, 241)">
+    <header class="titulo"><h3>Portifólio Pessoal</h3></header>
+    <h1>Lessandra da Silva Boer :) </h1>
+
+    <nav class="links">
+        <ul>
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formações e Skills</a></li>
+            <li><a href="portifolio.html">Portifólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="imagem">
+            <img src="foto1.jpg" class="foto">
+                <p><strong>Profissão:</strong>Engenheira de Alimentos e<br>estudante de Analise e<br>Desenvolvimento de Sistemas</p>
+                <p>
+                    <strong>Data do Nascimento:</strong>05/01/1994
+                </p>
+                <p><strong>Nacionalidade:</strong> Brasileira</p>
+        </div>
+        <div class="texto">
+            <h1>Entre em Contato</h1>
+            <form id="contact-form">
+              <label class= msg for="nome"><strong>Nome:</strong></label>
+              <input type="text" id="nome" name="nome" required><br><br>
+          
+              <label class= msg for="assunto"><strong>Assunto:</strong></label>
+              <input type="text" id="assunto" name="assunto" required><br><br>
+          
+              <label class= msg for="telefone"><strong>Telefone:</strong></label>
+              <input type="tel" id="telefone" name="telefone" required><br><br>
+          
+              <label class= msg for="mensagem"><strong>Mensagem:</strong></label>
+              <textarea id="mensagem" name="mensagem" required></textarea><br><br>
+          
+              <input id="botao-enviar" type="submit" value="Enviar">
+            </form>
+          
+            <script src="script.js"></script>
+        </div>
+</div>
+    
+</body>
+</html>
